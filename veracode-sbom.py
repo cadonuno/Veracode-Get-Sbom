@@ -26,6 +26,8 @@ def print_help():
     """Prints command line options and exits"""
     print("""py veracode-sbom.py -a <application_name> -f <file_name> [-d]
         Extracts an SBOM from the latest scan for the application named <application_name> and saves it to a file called <file_name>
+py veracode-sbom.py -w <workspace_name> -p <project_name> [-d]
+        Extracts an SBOM from the latest scan for the project named <project_name> in a workspace named <workspace_name>
 """)
     sys.exit()
 
