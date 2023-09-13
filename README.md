@@ -35,6 +35,7 @@ appropriate file protections in place.
 
 
 If a credentials file is not created, you can export the following environment variables:
+
     export VERACODE_API_KEY_ID=<YOUR_API_KEY_ID>
     export VERACODE_API_KEY_SECRET=<YOUR_API_KEY_SECRET>
     py veracode-sbom.py -a <application_name> [-d]
