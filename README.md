@@ -8,7 +8,7 @@ This script allows for promoting a sandbox with a single call
 
 Clone this repository:
 
-    git clone https://github.com/cadonuno/Veracode-Promote-Named-Sandbox.git
+    git clone https://github.com/cadonuno/Veracode-Get-Sbom.git
 
 Install dependencies:
 
@@ -27,10 +27,10 @@ appropriate file protections in place.
     veracode_api_key_secret = <YOUR_API_KEY_SECRET>
     
 ### Running the script
-    py veracode-sbom.py -a <application_name> [-d]
+    py veracode-sbom.py -a <application_name> -f <file_to_save> [-d]
         Extracts an SBOM from the latest scan for the application named <application_name>
 
-    py veracode-sbom.py -w <workspace_name> -p <project_name> [-d]
+    py veracode-sbom.py -w <workspace_name> -p <project_name> -f <file_to_save> [-d]
         Extracts an SBOM from the latest scan for the application named <application_name>
 
 
