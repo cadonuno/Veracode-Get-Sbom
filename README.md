@@ -1,8 +1,8 @@
-# Veracode Bulk Application Creator
+# Veracode Get SBOM
 
 ## Overview
 
-This script allows for promoting a sandbox with a single call
+This script allows for extracting, from the Veracode Platform, the SBOM for a Project or Application
 
 ## Installation
 
@@ -12,7 +12,7 @@ Clone this repository:
 
 Install dependencies:
 
-    cd Veracode-Promote-Named-Sandbox
+    cd Veracode-Get-Sbom
     pip install -r requirements.txt
 
 ### Getting Started
