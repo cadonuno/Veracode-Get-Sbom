@@ -31,7 +31,7 @@ appropriate file protections in place.
         Extracts an SBOM from the latest scan for the application named <application_name>
 
     py veracode-sbom.py -w <workspace_name> -p <project_name> -f <file_to_save> [-d]
-        Extracts an SBOM from the latest scan for the application named <application_name>
+        Extracts an SBOM from the latest scan for the project named <project_name> contained within the workspace named <workspace_name>
 
 
 If a credentials file is not created, you can export the following environment variables:   
